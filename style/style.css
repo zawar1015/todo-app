@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+
+ }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: wheat;
+    padding: 0px 2cqw;
+
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+
+
+}
+
+
+button {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(179, 152, 103);
+    color: white;
+    
+
+}
