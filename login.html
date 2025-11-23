@@ -21,13 +21,13 @@
         </div>
     </nav>
     <main>
-        <form>
+        <form onsubmit="handlelogin()">
             <h3>Login</h3>
             <label for="Email">Email</label>
-            <input type="text" placeholder="Enter your Email.">
+            <input type="text" placeholder="Enter your Email." name="email">
             <label for="Password">Password</label>
-            <input type="password" placeholder="Enter your password">
-            <button>Login</button>
+            <input type="password" placeholder="Enter your password" name="password">
+            <button type="submit">Login</button>
             <p>Don't have an account . <a href="./signup.html">signUp</a></p>
             
         </form>
