@@ -50,3 +50,12 @@ form p a{
 }
 
 
+.hideError{
+    display: none;
+    background-color: rgb(243, 156, 156);
+    color: red;
+    text-align: left;
+    padding-left: 10px;
+}
+
+

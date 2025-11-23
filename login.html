@@ -21,12 +21,14 @@
         </div>
     </nav>
     <main>
-        <form onsubmit="handlelogin()">
+        <form onsubmit="handlelogin(event)">
             <h3>Login</h3>
             <label for="Email">Email</label>
             <input type="text" placeholder="Enter your Email." name="email">
+             <p  class="hideError" id="emailError">error</p>
             <label for="Password">Password</label>
             <input type="password" placeholder="Enter your password" name="password">
+             <p  class="hideError" id="passwordError">error</p>
             <button type="submit">Login</button>
             <p>Don't have an account . <a href="./signup.html">signUp</a></p>
             
